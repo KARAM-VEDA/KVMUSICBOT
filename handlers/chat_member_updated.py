@@ -1,7 +1,6 @@
-from pyrogram import Client
 from pyrogram.types import ChatMemberUpdated
-
-from .. import admins
+from cache.admins import admins
+from pyrogram import Client
 
 
 @Client.on_chat_member_updated()
