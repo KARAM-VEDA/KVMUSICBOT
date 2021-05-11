@@ -13,8 +13,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @TerA_bAaP_VillAiN_xD
-\nTo add in your group contact us at @AndreaSupportChat
+Maintained With ❤ by @Karam_0912 .
+\nTo add in your group contact us at @KV_NETWORK 
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,23 @@ Maintained by @TerA_bAaP_VillAiN_xD
             [
                 [
                     InlineKeyboardButton(
-                        "Music World 🌟", url="https://t.me/ForeverStatuszz",
+                        "Music World 🌟", url="https://t.me/Mastipanti",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/ForeverStatuszz"
+                        "💬 Group", url="https://t.me/KV_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Love_Birds_Official"
+                        "🔊 Channel", url="https://t.me/KV_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "Assistant ", url="https://t.me/AndreaMusicAssistant"
+                        "💾 Source code", url="https://github.com/KARAM-VEDA/KVMUSICBOT"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/AndreaVcRobot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/KV_VCMUSICBOT?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +58,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Love_Birds_Official"
+                        "🔊 Channel", url="https://t.me/KV_NETWORK"
                     )
                 ],    
                 [    
@@ -80,7 +80,7 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
+        f"""<b>Hellow {message.from_user.first_name}!
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
 /splay <song name> - play song you requested via jio saavn
@@ -104,7 +104,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Love_Birds_Official"
+                        "🔊 Channel", url="https://t.me/KV_NETWORK"
                     )
                 ]
             ]
